@@ -56,23 +56,26 @@ def play_again():
 
     if response == "YES":
         return True
+    elif response != "NO":
+        return True
     else:
         return False
 
 
 questions = {
     "Who found the Turkey?: ": "A",
+    "What is the capitol of Turkey? ": "B",
     "When the Turkey found?: ": "B",
     "Who is the most famous celebrity: ": "C",
 }
 
 options = [["A. Ataturk", "B. Fatih Sultan Mehmet", "C. Alparslan", "D. Abdulhamit"],
+           ["A. Istanbul", "B. Ankara", "C. Sivas", "D. Izmir"],
            ["A. 1071", "B. 1923", "C. 1881", "D. 1829"],
            ["A. Haluk Bilginer", "B. Yilmaz Guney", "C. Cem Yilmaz", "D. Sertap Erener"],
            ]
 
 trivia_game()
-
 
 while play_again():
     trivia_game()
