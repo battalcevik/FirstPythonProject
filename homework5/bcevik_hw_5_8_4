@@ -1,0 +1,28 @@
+Assignment Directions test test test
+The specific instructions for these programming exercises are adapted from problems shown in the
+textbook.  Make sure to follow the specific instructions in THIS document.
+Each program is worth 10 points for a total of 50 points (100%).
+Style Requirements
+For all assignments, follow the guidelines in the PEP8 Standards and Best Practices that have been
+shared to date, along with course specific requirements.
+Up to this point, we have minor deductions for:
+Improper naming of programs or zip container
+Among other things, names for regular programs and zip file must be all lower case.
+Missing program docstring
+Inadequate # line comments (just a few in each program, don’t go crazy)
+Going significantly over 80 characters for code/comment lines
+Not naming objects appropriately
+variables and functions must use snake_case (lower case plus underscores)
+CONSTANT variables in all upper case
+Class Objects, which are taught in module 6, as CamelCase
+Asking for input() without descriptive prompts telling the user what is expected.
+Especially not mentioning the delimiter when input will be split()
+Printing output that is not clearly explained (where necessary)
+Starting with this homework assignment, we will also be deducting for:
+Not providing a docstrings for functions and class objects
+Crashing uncontrolled on bad user input
+Having too large a scope for try blocks
+Not using format() to round output and add thousand separating commas (US standards)
+
+
+
